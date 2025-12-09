@@ -2,7 +2,7 @@ name: Build and Deploy to Tomcat 9
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   workflow_dispatch:
 
 jobs:
